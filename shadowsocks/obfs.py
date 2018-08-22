@@ -37,9 +37,9 @@ method_supported.update(auth_akarin.obfs_map)
 
 
 def mu_protocol() -> typing.Set[str]:
-    return {"auth_aes128_md5", "auth_aes128_sha1",
+    return ["auth_aes128_md5", "auth_aes128_sha1",
             "auth_chain_a", "auth_chain_b", "auth_chain_c", "auth_chain_d", "auth_chain_e", "auth_chain_f",
-            "auth_akarin_rand", "auth_akarin_spec_a"}
+            "auth_akarin_rand", "auth_akarin_spec_a"]
 
 
 class server_info(object):
